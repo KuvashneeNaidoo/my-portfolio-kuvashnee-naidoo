@@ -46,12 +46,12 @@ const ProjectDetail = () => {
             <h5 className="text-[rgb(95,180,162)] mb-16">
               {project.technos.join(" / ")}
             </h5>
-            <div className="border-b-2 border-[#e1e1e2] pb-16">
+            <div className="border-b-2 border-[#e1e1e2] pb-16 flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0">
               <a
                 href={project.liveSite}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="max-w-fit mt-4 mr-4 px-8 py-4 border border-black-700 bg-white text-black uppercase hover:bg-black hover:text-white hover:italic"
+                className="px-8 py-4 border border-black-700 bg-white text-black uppercase hover:bg-black hover:text-white hover:italic text-center"
               >
                 LIVE SITE
               </a>
@@ -59,7 +59,7 @@ const ProjectDetail = () => {
                 href={project.sourceCode}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="max-w-fit mt-4 px-8 py-4 border border-black-700 bg-white text-black uppercase hover:bg-black hover:text-white hover:italic"
+                className="px-8 py-4 border border-black-700 bg-white text-black uppercase hover:bg-black hover:text-white hover:italic text-center"
               >
                 SOURCE CODE
               </a>
