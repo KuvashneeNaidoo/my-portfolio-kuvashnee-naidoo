@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+h1 {
+  font-family: "Ibarra Real Nova", serif;
+  color: #33323d;
+}
+
+a {
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #5c5b64;
+}
+
+:root {
+  font-family: Public Sans, sans-serif;
+}
+
+/* Used for mobile menu for hovering over menu-items to avoid redundant code */
+.menu-item {
+  @apply hover:scale-110 transition-transform duration-400;
+}
