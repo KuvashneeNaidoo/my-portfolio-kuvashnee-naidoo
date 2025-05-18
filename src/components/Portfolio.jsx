@@ -175,10 +175,10 @@ const Portfolio = () => {
             <div className="w-full md:w-1/3 sm:mt-10 md:mt-0 flex flex-col justify-center py-16 px-4 md:px-0 border-t-2 border-b-2 border-[#e1e1e2] text-left mx-auto">
               <h1 className="text-4xl font-semibold w-full">Manage</h1>
               <p className="text-lg py-8 w-full">
-                This was a small project which mostly consisted of HTML and CSS.
-                I built a fully-responsive landing page. The only JavaScript
-                this project required was to enable the toggling of the mobile
-                navigation.
+                This project involved creating a fully responsive landing page 
+                based on provided mobile and desktop Figma designs. Built with 
+                semantic HTML and styled using Tailwind CSS, the project showcases 
+                modern layout techniques and a mobile-first approach.
               </p>
 
               <Link
