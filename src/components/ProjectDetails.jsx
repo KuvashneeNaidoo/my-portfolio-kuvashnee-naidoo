@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import projectData from "../data/projectData";
+import projectData from "../data/ProjectData";
 import ArrowLeft from "../assets/icons/arrow-left.svg";
 import ArrowRight from "../assets/icons/arrow-right.svg";
 import ProjectInquiry from "./ProjectInquiry";
